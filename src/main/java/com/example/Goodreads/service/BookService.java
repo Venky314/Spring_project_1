@@ -11,8 +11,10 @@ public class BookService implements BookRepository {
     public BookService() {
         Book b1 = new Book(1, "harry potter","harry_potter.jpg");
         Book b2 = new Book(2, "Rise","rise.jpeg");
+        Book b3 = new Book(3, "venkatesh","rise.jpeg");
         hmap.put(b1.getId(), b1);
         hmap.put(b2.getId(), b2);
+        hmap.put(b3.getId(), b3);
     }
     
     @Override
